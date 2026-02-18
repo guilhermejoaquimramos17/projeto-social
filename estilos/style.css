@@ -43,3 +43,23 @@ iframe#home{
     width: 188px;
     height: 332px;
 }
+
+section#redes {
+    text-align: right;
+}
+
+section#redes img{
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.457);
+    
+}
+
+section#redes img:hover{
+    border: 1px solid rgba(255, 255, 255, 0.492);
+    box-sizing: border-box;
+    transform: translate(-3px, -3px);
+    transition: transform 0.3s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.492);
+}
